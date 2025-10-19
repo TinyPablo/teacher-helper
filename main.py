@@ -1,6 +1,6 @@
 from machine import Pin, I2C
 import time
-import ssd1306
+import sh1106
 import math
 
 
@@ -20,7 +20,8 @@ BUTTON_DEBOUNCE_DELAY = 0.15
 
 
 i2c = I2C(0, scl=Pin(I2C_SCL_PIN), sda=Pin(I2C_SDA_PIN), freq=I2C_FREQ)
-oled = ssd1306.SSD1306_I2C(DISPLAY_WIDTH, DISPLAY_HEIGHT, i2c, addr=OLED_I2C_ADDR)
+oled = sh1106.SH1106_I2C(128, 64, i2c, res=None, addr=0x3c, rotate=180)
+
 
 button_increase = Pin(2, Pin.IN, Pin.PULL_DOWN)
 button_decrease = Pin(3, Pin.IN, Pin.PULL_DOWN)
