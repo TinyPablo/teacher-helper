@@ -88,7 +88,7 @@ while True:  # main loop
         else:
             points_text = f'{min_points} - {max_points}'
 
-        line_text = points_text + right_justify(str(grade), LINE_LENGTH - len(points_text))
+        line_text = points_text + rjust(str(grade), LINE_LENGTH - len(points_text))
         y_position = len(grade_ranges) * ROW_SPACING - (index + 1) * ROW_SPACING
 
         # draw
