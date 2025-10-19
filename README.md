@@ -8,7 +8,8 @@ Designed to help teachers quickly calculate and visualize student grades using e
 
 ## 🖼️ Preview
 
-![Device Photo](photo.jpg)
+![photo](https://github.com/user-attachments/assets/880afd94-724b-4aa0-98f9-705264a0c2f6)
+
 *(Replace `photo.jpg` with your actual image filename)*
 
 ---
