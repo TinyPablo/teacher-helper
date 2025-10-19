@@ -10,8 +10,6 @@ Designed to help teachers quickly calculate and visualize student grades using e
 
 ![photo](https://github.com/user-attachments/assets/3ae90c04-0ed2-44e8-a50e-31e62a99ee7f)
 
-*(Replace `photo.jpg` with your actual image filename)*
-
 ---
 
 ## 🧠 About the Project
@@ -50,9 +48,3 @@ Upload the `main.py` file to your device using **Thonny** or another MicroPython
 
 Created as a practical and heartfelt gift for my mum, a teacher who inspires learning every day.  
 A small project with a big purpose ❤️
-
----
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
