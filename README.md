@@ -27,7 +27,7 @@ Two physical buttons allow adjusting the total points, and the display instantly
 - Breadboard (for easy assembly)
 - Short wires - the kind that fit snugly into the breadboard)
 - USB cable for power and programming
-- Some electrical tape 😉�
+- Some electrical tape 😉
 
 ---
 
