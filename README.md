@@ -21,11 +21,13 @@ Two physical buttons allow adjusting the total points, and the display instantly
 
 ## ⚙️ Hardware
 
-- Microcontroller: Raspberry Pi Pico (or similar)
+- Microcontroller: Raspberry Pi Pico (or compatible MicroPython board)
 - Display: 1.3" OLED (SH1106, I²C)
-- 2 × Buttons (for increasing/decreasing points)
-- USB cable for power
-- Some electrical tape 😉
+- 2 × Push buttons (for increasing/decreasing points)
+- Breadboard (for easy assembly)
+- Short wires - the kind that fit snugly into the breadboard)
+- USB cable for power and programming
+- Some electrical tape 😉�
 
 ---
 
