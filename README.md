@@ -8,7 +8,7 @@ Designed to help teachers quickly calculate and visualize student grades using e
 
 ## 🖼️ Preview
 
-![photo](https://github.com/user-attachments/assets/880afd94-724b-4aa0-98f9-705264a0c2f6)
+![photo](https://github.com/user-attachments/assets/3ae90c04-0ed2-44e8-a50e-31e62a99ee7f)
 
 *(Replace `photo.jpg` with your actual image filename)*
 
@@ -33,9 +33,7 @@ Two physical buttons allow adjusting the total points, and the display instantly
 
 ## 💻 Software
 
-- **Language:** MicroPytho![pho![photo](https://github.com/user-attachments/assets/0b5d36bc-8f1f-47e1-8749-f3e2b3f4f0bf)
-to](https://github.com/user-attachments/assets/6eba6280-93f0-454e-aed3-777bd8493e8e)
-n  
+- **Language:** MicroPython  
 - **Libraries:** `machine`, `time`, `math`, and `sh1106`  
 
 Upload the `main.py` file to your device using **Thonny** or another MicroPython IDE.
