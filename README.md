@@ -8,7 +8,15 @@ Designed to help teachers quickly calculate and visualize student grades using e
 
 ## 🖼️ Preview
 
-![photo](https://github.com/user-attachments/assets/3ae90c04-0ed2-44e8-a50e-31e62a99ee7f)
+### Prototype version
+
+![Prototype on breadboard](./assets/preview-1.jpg)
+![Prototype showing another grade range](./assets/preview-2.jpg)
+
+### Packed version
+
+![Packed portable version](./assets/preview-3.jpg)
+![Packed version connected by USB](./assets/preview-4.jpg)
 
 ---
 
@@ -25,7 +33,7 @@ Two physical buttons allow adjusting the total points, and the display instantly
 - Display: 1.3" OLED (SH1106, I²C)
 - 2 × Push buttons (for increasing/decreasing points)
 - Breadboard (for easy assembly)
-- Short wires - the kind that fit snugly into the breadboard)
+- Short wires - the kind that fit snugly into the breadboard
 - USB cable for power and programming
 - Some electrical tape 😉
 
@@ -33,10 +41,10 @@ Two physical buttons allow adjusting the total points, and the display instantly
 
 ## 💻 Software
 
-- **Language:** MicroPython  
-- **Libraries:** `machine`, `time`, `math`, and `sh1106`  
+Built with **MicroPython** and designed to run directly on the microcontroller.  
+The only external display-related dependency is the **SH1106 driver** used for the OLED screen.
 
-Upload the `main.py` file to your device using **Thonny** or another MicroPython IDE.
+Upload the project as `main.py` using **Thonny** or any other MicroPython-compatible IDE.
 
 ---
 
@@ -45,6 +53,15 @@ Upload the `main.py` file to your device using **Thonny** or another MicroPython
 1. Power the device via USB.  
 2. Use the buttons to **increase** or **decrease** the total number of points.  
 3. The OLED screen will automatically show updated grade ranges (from grade 1 to 6).  
+
+---
+
+## 🚀 Version 2.0
+
+A new and improved version is planned.  
+The next version will likely include a **rechargeable battery**, **lower power consumption**, and a **proper 3D-printed enclosure**.
+
+---
 
 ## 💬 Inspiration
 
